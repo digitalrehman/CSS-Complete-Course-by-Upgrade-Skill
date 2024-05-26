@@ -1,0 +1,39 @@
+/* universal selector */
+
+/* *{
+    color: red;
+} */
+
+/* type selector  */
+
+/* h1{
+    color: red;
+}
+p{
+    color: aqua;
+} */
+
+
+
+/* class selector  */
+.xyz{
+    color: red;
+}
+.ali{
+    color: blueviolet;
+}
+
+.abc{
+    color: blue;
+}
+
+/* id selector */
+
+#idselector{
+    color: palevioletred;
+}
+
+
+p a{
+    color: red;
+}

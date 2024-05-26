@@ -1,0 +1,12 @@
+h1{
+    /* color: blueviolet; */
+    /* color: rgb(135, 155, 26); */
+    /* color: rgba(201, 100, 255, 0.233); */
+    /* color: hsl(207, 71%, 39%); */
+    /* color: hsla(200, 100%, 50%, 0.945); */
+    /* color: #0cdf8791; */
+    background-color: aqua;
+}
+body{
+    background: black;
+}
