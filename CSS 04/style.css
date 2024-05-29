@@ -1,0 +1,17 @@
+
+
+
+h1{
+   /* border-width: 5px;
+   border-style: solid;
+   border-color: blue;  */
+
+
+   border: 12px solid blue;
+
+   /* outline-width: 4px;
+   outline-style: dotted;
+   outline-color: red; */
+
+   outline: 5px solid red;
+}

@@ -1,0 +1,9 @@
+.box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    background: #000;
+    color: snow;
+    outline: 2px solid blue;
+    opacity: 0.6;
+}
