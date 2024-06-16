@@ -1,0 +1,25 @@
+.box{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    /* border-start-start-radius: 20px;
+    border-start-end-radius: 30px;
+    border-end-end-radius: 30px;
+    border-end-start-radius: 5px; */
+/* 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    
+    /* border-radius: 20px; */
+    /* border-radius: 20px 50px; */
+    /* border-radius: 10px 30px 30px 20px; */
+
+
+    border-bottom: 10px solid firebrick;
+    border-left: 10px solid green;
+    border-top: 10px solid blue;
+    border-right: 10px solid purple;
+    border-radius: 20px;
+}

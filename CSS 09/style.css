@@ -1,0 +1,20 @@
+.box{
+    /* width: 300px; */
+    height: 300px;
+    border: 2px solid black;
+    /* overflow-y: visible; */
+    /* overflow-y: hidden; */
+    /* overflow-y: scroll; */
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
+    /* overflow-x: scroll; */
+    /* overflow-x: auto; */
+    /* overflow: auto; */
+    min-width: fit-content;
+
+}
+
+.box img{
+    height: 200px;
+    width: 400px;
+}
