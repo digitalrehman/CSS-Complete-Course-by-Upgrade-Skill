@@ -1,0 +1,14 @@
+.box{
+    /* width: 200px; */
+    min-width: 200px;
+    max-width: 500px;
+    height: 300px;
+    /* min-height: 200px; */
+    /* max-height: 800px; */
+    border: 2px solid #000000;
+    overflow: auto;
+}
+img{
+    width: 550px;
+    height: 200px;
+}
