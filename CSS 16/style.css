@@ -1,0 +1,10 @@
+.box{
+    border: 2px solid red;
+    width: 201px;
+    height: 100px;
+    /* word-wrap: normal; */
+    /* word-wrap: break-word; */
+    /* word-break: normal; */
+    word-break: break-all;
+    /* word-break: keep-all; */
+}
