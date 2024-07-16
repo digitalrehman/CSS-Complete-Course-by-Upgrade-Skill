@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+h1{
+    font-family: 'Playball', cursive;
+    text-transform: lowercase;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+}

@@ -1,0 +1,16 @@
+.box{
+    width: 600px;
+    height: 300px;
+    /* border: 2px solid red; */
+    column-count: 2;
+    column-gap: 50px;
+    /* column-rule-width: 5px;
+    column-rule-style: groove;
+    column-rule-color: black; */
+    column-rule: 5px solid gray;
+
+
+}
+h2{
+    column-span: all;
+}

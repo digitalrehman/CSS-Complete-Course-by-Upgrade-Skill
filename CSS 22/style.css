@@ -1,0 +1,11 @@
+@font-face {
+    font-family: myFont;
+    src: url(./Lemon-Regular.ttf);
+}
+
+h1{
+    font-family: myFont;
+}
+p{
+    font-family: myFont;
+}
