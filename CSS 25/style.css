@@ -1,0 +1,19 @@
+body{
+    height: 900px;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+    /* background-position: right bottom; */
+    /* background-position: left;  */
+    /* background-position: 10% 56%; */
+    
+}
+.box{
+    width: 700px;
+    height: 400px;
+    border: 2px solid black;
+}

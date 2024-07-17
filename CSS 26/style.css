@@ -1,0 +1,22 @@
+.box {
+    /* font-size: 30px; */
+    border: 15px dotted black;
+    height: 500px;
+    width: 800px;
+    background-image: url(https://cdn.pixabay.com/photo/2024/07/02/09/11/leaf-8867169_1280.jpg);
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-size: 400px; */
+    padding: 30px;
+    /* background-origin: border-box; */
+    /* background-origin: padding-box; */
+    background-origin: content-box;
+}
+
+/* body{ */
+/* background-attachment: fixed; */
+/* background-position: center; */
+/* background-size: ; */
+/* } */

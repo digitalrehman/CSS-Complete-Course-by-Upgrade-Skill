@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    /* list-style-image: url(./arrow.png); */
+    /* list-style-type: upper-roman; */
+    list-style-position: inside;
+    margin: 30px;
+    list-style: square inside;
+    cursor: grab;
+
+}
