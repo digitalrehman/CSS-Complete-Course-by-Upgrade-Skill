@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    background: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.box {
+    background-color: white;
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+    border: 20px dotted black;
+    padding: 20px;
+    /* background-clip: content-box; */
+
+}
