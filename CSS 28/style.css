@@ -1,6 +1,23 @@
 .box{
     width: 400px;
     height: 400px;
-    background: linear-gradient(rgba(0, 0, 255, 0.473), rgba(173, 216, 230, 0.308)), url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-    background-blend-mode: color-burn;
+    background: linear-gradient(#f095337a,#e6693c77), url("./background.jpg");
+    /* background-blend-mode: color; */
+    /* background-blend-mode: color-burn; */
+    /* background-blend-mode: color-dodge; */
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: difference; */
+    /* background-blend-mode: exclusion; */
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: hue; */
+    /* background-blend-mode: lighten; */
+    /* background-blend-mode: luminosity; */
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: normal; */
+    /* background-blend-mode: overlay; */
+    /* background-blend-mode: saturation; */
+    /* background-blend-mode: screen; */
+    background-blend-mode: soft-light;
+
+    
 }
