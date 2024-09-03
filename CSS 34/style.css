@@ -1,0 +1,60 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background: green;
+    /* animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: ease-in; */
+    /* animation-delay: 3s; */
+    /* animation-fill-mode: none; */
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running; */
+    animation: example 1s ease-in infinite alternate;
+}
+
+/* .box:hover {
+    animation-play-state: paused;
+} */
+
+
+
+@keyframes example {
+    25%{
+        background-color: red;
+        border-radius: 10px;
+    }50%{
+        background-color: yellow;
+        border-radius: 50px;
+        width: 300px;
+        height: 300px;
+    }75%{
+        background-color: blue;
+        border-radius: 0px;
+        width: 200px;
+        height: 200px;
+    }100%{
+        background-color: green;
+        border-radius: 10px;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
+
+
+/* @keyframes example {
+    from {
+        background-color: red;
+        border-radius: 10px;
+    }
+
+    to {
+        border-radius: 50px;
+        background-color: yellow;
+        width: 500px;
+        height: 500px;
+        box-shadow: 5px 10px 30px rgba(128, 128, 128, 0.466);
+    }
+} */

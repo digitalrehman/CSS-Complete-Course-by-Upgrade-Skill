@@ -1,0 +1,45 @@
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+    background-color: aqua;
+}
+.gallery{
+    /* visibility: hidden; */
+    /* display: none; */
+    /* visibility: visible; */
+
+}
+.info{
+    visibility: collapse;
+    /* display: none; */
+}
+
+
+
+.box-1{
+    height: 250px;
+    width: 250px;
+    background: red;
+    z-index: 2;
+}
+.box-2{
+    height: 200px;
+    width: 200px;
+    background: blue;
+    z-index: -10;
+}
+.box-3{
+    height: 230px;
+    width: 150px;
+    background: green;
+    z-index: 100    ;
+}
+
+.box{
+    position: absolute;
+}
+
+/* z-index = 0  */

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-color: #F2F6F9;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    color: snow;
+    height: 70px;
+}
+
+nav img {
+    position: absolute;
+    left: 5%;
+    top: 13px;
+}
+
+nav ul {
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    top: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-inline: 10px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+nav ul li:hover {
+    color: #FF4800;
+}
+
+nav button {
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    background-color: snow;
+    border: none;
+    color: #FF4800;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s ease-in;
+}
+
+nav button:hover {
+    background-color: #FF4800;
+    color: snow;
+}
+
+
+/* contant  */
+
+.contant {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: snow;
+}
+
+.contant h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.contant p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    background-color: snow;
+    border: none;
+    color: #FF4800;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s ease-in;
+}
+
+#btn-demo {
+    background: #FF4800;
+    color: snow;
+}
+
+#btn-demo:hover {
+    background-color: snow;
+    color: #FF4800;
+}
+
+.btn button:hover {
+    background-color: #FF4800;
+    color: snow;
+}
+
+
+/* about  */
+.about{
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 70px 40px;
+}
+.about .about-img{
+    display: inline-block;
+    width: 40%;
+    height: 95%;
+    
+}
+.about-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.about .card{
+    display: inline-block;
+    width: 50%;
+    padding: 20px 30px;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 60px;
+}
+.card h2{
+    font-size: 35px;
+    margin-bottom: 20px;    
+    text-align: center;
+}
+.card p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* services  */
+
+.services{
+    width: 100%;
+    height: 140vh;
+    color: black;
+    text-align: center;
+    padding: 70px 40px;
+}
+.services .heading{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.heading h2{
+    font-size: 35px;
+    margin-bottom: 10px;    
+    text-align: center;
+    color: #FF4800;
+}
+
+.cards{
+    margin-top: 30px;
+    width: 100%;
+}
+.card{
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    padding: 20px 30px;
+    text-align: left;
+    background: #fff;
+    transition: 0.3s ease-in;
+}
+
+.card i{
+   font-size: 50px;
+   color: #FF4800;
+   margin-bottom: 20px;
+   transition: 0.3s ease-in;
+   cursor: pointer;
+}
+
+.card i:hover{
+    border-radius: 5px;
+    color: #F2F6F9;
+    padding: 10px;
+    background: #FF4800;
+}
+
+.card h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card:hover{
+    box-shadow: 2px 2px #FF4800;
+}
+
+.client{
+    width: 100%;
+    height: 100vh;
+    color: black;
+    text-align: center;
+    padding: 70px 40px;
+}
+.client .heading{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.heading h2{
+    font-size: 35px;
+    margin-bottom: 10px;    
+    text-align: center;
+    color: #FF4800;
+}
+.clients{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.clients img{
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    padding: 20px 30px;
+    background: #fff;
+    transition: 0.3s ease-in;
+    box-shadow: 2px 2px 5px #FF4800;
+}
+.clients img:hover{
+    box-shadow: 2px 2px 5px gray;
+    background: #FF4800;
+}
+
+.footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #FF4800;
+    color: snow;
+    text-align: center;
+    padding: 70px 40px;
+}
+.footer{
+    font-size: 20px;
+}

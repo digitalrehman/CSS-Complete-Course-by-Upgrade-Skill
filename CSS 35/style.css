@@ -1,0 +1,23 @@
+
+
+
+
+ul{
+    border: 2px solid red;
+}
+li{
+    width: 100px;
+    border: 2px solid green;
+    /* display: inline; */
+    /* display: block; */
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+.Gallery{
+    /* display: none; */
+}
+span{
+    display: list-item;
+    border: 2px solid blue;
+}

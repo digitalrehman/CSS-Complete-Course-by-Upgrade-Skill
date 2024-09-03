@@ -1,0 +1,17 @@
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    /* resize: none; */
+    /* resize: horizontal; */
+    /* resize: vertical; */
+    /* resize: both; */
+    /* overflow: auto; */
+    /* user-select: none; */
+    /* user-select: auto; */
+    /* user-select: all; */
+    user-select: text;
+}
+h1{
+    user-select: all;
+}

@@ -1,0 +1,26 @@
+
+
+
+table{
+    width: 500px;
+    border: 1px solid black;
+    border-spacing:7px;
+    /* border-collapse: separate; */
+    /* border-collapse: collapse; */
+    /* empty-cells: show; */
+    empty-cells: hide;
+    /* table-layout: auto; */
+    table-layout: fixed;
+    /* caption-side: bottom; */
+    /* caption-side: top; */
+}
+tr td{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    /* vertical-align: bottom; */
+    /* vertical-align: top; */
+    vertical-align: middle;
+    /* text-wrap: wrap; */
+    /* text-overflow: ellipsis; */
+}

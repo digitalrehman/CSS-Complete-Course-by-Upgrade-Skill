@@ -1,0 +1,16 @@
+body{
+    font-size: 20px;
+    width: 50vw;
+    border: 3px solid green;
+}
+.parent{
+    width: 600px;
+    height: 10vh;
+    border: 2px solid black;
+}
+.box{
+    width: 90vw;
+    height: 200px;
+    border: 2px solid red;
+    font-size: 100%;
+}

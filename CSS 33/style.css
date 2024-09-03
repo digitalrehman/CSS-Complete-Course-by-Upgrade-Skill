@@ -1,0 +1,16 @@
+.parent{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 100px;
+    /* transform-style: flat; */
+    transform-style: preserve-3d;
+    transform: rotateY(40deg);
+}
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transform-origin: bottom center;
+    transform: perspective(800px) rotateX(60deg);
+}
