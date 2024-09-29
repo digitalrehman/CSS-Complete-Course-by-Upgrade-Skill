@@ -1,0 +1,56 @@
+/* Type selectors  */
+
+/* p{
+    color: red;
+} */
+ /* .xyz{
+    color: peru;
+ }
+h1{
+    color: green;
+}
+
+
+.abc{
+    color: red;
+}
+.multiple{
+    background: #000;
+}
+
+
+#gh{
+    color: blue;
+}
+#test{
+    background: #000;
+}
+
+ */
+
+
+ /* *{
+    color: red;
+    background: #000;
+ } */
+
+
+ /* decendent selector  */
+
+
+/* p span{
+    color: salmon;
+ } */
+/* ajecent sibluing selectors  */
+
+/* ul + p{
+    color: green;
+} */
+/* 
+.list > p{
+    color: red;
+} */
+
+ul ~ p{
+    color: red;
+}
