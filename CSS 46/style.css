@@ -1,0 +1,29 @@
+/* input[type]{
+    border: 6px solid red;
+} */
+
+/* input[type="text"]{
+    border: 6px solid red;
+} */
+/* 
+img[title^="my"]{
+    border: 6px solid red;
+} */
+
+
+/* img[title|="this"]{
+    border: 6px solid red;
+} */
+
+
+/* input[placeholder$="email"] {
+    border: 6px solid red;
+} */
+
+/* img[title*="this"]{
+    border: 6px solid red;
+} */
+/* 
+img[title~="this"] {
+    border: 6px solid red;
+} */
