@@ -1,0 +1,73 @@
+/* a:link{
+    color: red;
+} */
+/* a:visited{
+    color: red;
+} */
+
+/* a:hover{
+    color: green;
+    font-size: large;
+} */
+/* a:hover{
+    color: green;
+    font-size: large;
+} */
+
+/* 
+p:target{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+} */
+
+/* input:focus{
+    background: red;
+} */
+/* input[type="radio"]:checked + label{
+} */
+
+/* input:enabled{
+    background: yellow;
+} */
+/* input:disabled{
+    background: yellow;
+} */
+
+
+/* input:required{
+    background: red;
+} */
+/* input:optional{
+    background: red;
+} */
+
+
+/* input[type="number"]:in-range{
+    background-color: green;
+}
+
+input[type="number"]:out-of-range{
+    background-color: red;
+} */
+
+/* input:read-only{
+    background: #000;
+} */
+
+/* input:read-write{
+    background: #000;
+    color: white;
+} */
+
+/* input[type="email"]:invalid{
+    background: red;
+}
+input[type="email"]:valid{
+    background: green;
+} */
+
+
+/* input:default {
+    box-shadow: 0 0 0 5px green;
+} */
